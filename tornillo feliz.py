@@ -11,3 +11,9 @@
     siguiente =Button(frame,text="Siguiente", command=mesSiguiente)
     siguiente.grid(row=1, column=2)
     frame.grid(row=2,column=1)
+
+    
+root.title('Ferretería El tornillo feliz') # nombre del titulo de mi ventana
+    root.config(bg= "#BDDCE1") # background o fondo de mi ventana
+#root.iconbitmap('imagen.ico')# imagen con el icono de mi ventana
+    root.resizable(False,False) #Evita que se expanda mi ventana
